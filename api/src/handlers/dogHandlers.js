@@ -1,6 +1,12 @@
-const {Dog} = require("../db")
+require("dotenv").config;
+const {Dog} = require("../db");
+const axios = require("axios");
+const {APIKEY} = process.env;
+const apiBreeds = `https://api.thedogapi.com/v1/breeds?${APIKEY}`
+
 
 const getDogsHandler = async (req,res) => {
+
     try {
         
     } catch (error) {
