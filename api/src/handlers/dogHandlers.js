@@ -11,13 +11,13 @@ const URL = "https://api.thedogapi.com/v1/breeds/search?q="
 
 const getDogsHandler = async (req,res) => {
     axios.get(apiBreeds)
-        .then(resp => {
-            const data = resp.data;
-            res.status(200).json(data)
-        })
-        .catch(err => {
-            res.status(400).json({error:err.message})
-        }) 
+    .then(resp => {
+        const data = resp.data;
+        res.status(200).json(data)
+    })
+    .catch(err => {
+        res.status(400).json({error:err.message})
+    }) 
     
 }
 
