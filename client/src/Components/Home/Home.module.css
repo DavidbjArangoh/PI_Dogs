@@ -1,0 +1,12 @@
+#Principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../Resources/Home/sl_011023_55240_03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
