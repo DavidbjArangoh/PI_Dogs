@@ -1,8 +1,9 @@
 #Principal{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 100vw;
     min-height: 100vh;
     background-image: url('../../Resources/Home/sl_011023_55240_03.jpg');
